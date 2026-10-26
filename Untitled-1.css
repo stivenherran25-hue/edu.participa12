@@ -595,3 +595,18 @@ footer p {
     max-width: 900px;
     border-radius: 15px;
 }
+.encabezado-principal {
+    background-color: #000000; /* Define el color de la franja como negro */
+    color: #ffffff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu a, .boton-menu {
+    color: #ffffff !important; /* Hace que el texto de las opciones sea blanco para que se note en la franja */
+    text-decoration: none;
+    margin-left: 15px;
+}
