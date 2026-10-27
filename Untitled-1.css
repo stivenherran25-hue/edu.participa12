@@ -825,3 +825,75 @@ footer p {
     color: #ffffff; /* Color de texto blanco para que resalte sobre el negro */
     text-decoration: none;
 }
+/* Estilo general de la barra de encabezado */
+.encabezado-principal {
+    background-color: #1a1a1a; /* Tono negro/gris oscuro elegante */
+    border-top: 2px solid #ffffff; /* La línea blanca decorativa superior */
+    display: flex;
+    justify-content: space-between; /* Separa el título (izquierda) del menú (derecha) */
+    align-items: center;
+    padding: 20px 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Estilo del título de la izquierda */
+.encabezado-principal .logo {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+/* Contenedor de las opciones del menú a la derecha */
+.encabezado-principal .menu {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Espacio entre cada opción del menú */
+}
+
+/* Estilo de los enlaces del menú */
+.encabezado-principal .menu a {
+    color: #ffffff !important; /* Texto blanco forzado */
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+/* Efecto cuando pasas el mouse por encima de los enlaces */
+.encabezado-principal .menu a:hover {
+    color: #b0b0b0 !important;
+}
+
+/* Estilo del menú desplegable de "Quiénes somos" */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-contenido {
+    display: none;
+    position: absolute;
+    background-color: #262626;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.4);
+    z-index: 99;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown-contenido a {
+    color: white !important;
+    padding: 10px 15px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-contenido a:hover {
+    background-color: #404040;
+}
+
+.dropdown:hover .dropdown-contenido {
+    display: block;
+}
