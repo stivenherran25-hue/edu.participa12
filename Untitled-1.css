@@ -834,7 +834,7 @@ footer p {
 }
 
 .hero-logo {
-    width: 350px; /* Ajusta este valor para hacer el logo más grande o más pequeño */
+    width: 450px; /* Ajusta este valor para hacer el logo más grande o más pequeño */
     height: auto;
     object-fit: contain;
     flex-shrink: 0; /* Evita que el logo se deforme si la pantalla se reduce */
@@ -842,7 +842,7 @@ footer p {
 
 .hero-title {
     color: #ffffff;
-    font-size: 3rem; /* Ajusta el tamaño de fuente según tu diseño */
+    font-size: 250px; /* Ajusta el tamaño de fuente según tu diseño */
     font-weight: 800;
     line-height: 1.1;
     margin: 0;
