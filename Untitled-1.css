@@ -817,10 +817,6 @@ footer p {
         font-size: 24px;
     }
 }
-.encabezado-principal {
-    background-color: #000000; /* Fondo negro de la barra */
-}
-
 .menu a {
     color: #ffffff; /* Color de texto blanco para que resalte sobre el negro */
     text-decoration: none;
