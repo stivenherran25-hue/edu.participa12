@@ -33,7 +33,7 @@ body {
 .logo {
     font-size: 22px;
     font-weight: bold;
-    max-width: 430px;
+    max-width: 330px;
 }
 .menu {
     display: flex;
